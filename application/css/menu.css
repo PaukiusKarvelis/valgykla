@@ -1,0 +1,20 @@
+.menu {
+  text-align: center;
+  width: 500px;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.menuItem{
+    margin: 20px;
+
+    font-size: 1.6rem;
+  	display: grid;
+  	place-items: center;
+  	min-height: 200px;
+  	border: 8px solid;
+  	padding: 1rem;
+
+    border-image: linear-gradient(to left, black, rgb(44, 96, 150)) 1 0;
+}
